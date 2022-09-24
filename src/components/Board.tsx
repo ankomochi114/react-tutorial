@@ -20,11 +20,9 @@ const Board: React.FC<BoardProps> = ({ squares, onClick }) => {
                 <Square value={squares[index]} onClick={() => onClick(index)} />
               );
             })}
-            ;
           </div>
         );
       })}
-      ;
     </div>
   );
 };
